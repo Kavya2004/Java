@@ -5,8 +5,8 @@ class FahrenheitToCelsius {
         int sunF;
         satF=72;
         sunF=78;
-        double satC=(5.0/9)*(satF-32);
-        double sunC=(5.0/9)*(sunF-32);
+        double satC=(5D/9)*(satF-32);
+        double sunC=(5D/9)*(sunF-32);
         System.out.println("Weekend Averages");
         System.out.println("Saturday: "+satC);
         System.out.println("Sunday: "+sunC);
