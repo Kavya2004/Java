@@ -12,3 +12,14 @@ class FahrenheitToCelsius {
         System.out.println("Sunday: "+sunC);
     }
 }
+// input from user and convert fahrenheit to celsius
+import java.util.Scanner;
+class FahrenheitToCelsius {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a Fahrenheit value: ");
+        int fahrenheit  = input.nextInt();
+        double celsius = (5D/9)*(fahrenheit-32);
+        System.out.println("Celsius: "+celsius); 
+    }
+}
