@@ -27,3 +27,23 @@ class FahrenheitToCelsius {
         System.out.println(day +"Celsius: "+celsius); 
     }
 }
+
+//Formatted and Unformatted  total
+import java .util.Scanner;
+import java.NumberFormat;
+public class currency {
+    public static void main(String[] args) {
+        int items;
+        double itemcost, total;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number of items: ");
+        items = input.nextInt();
+        System.out.print("Cost per item: ");
+        itemCost = input.nextDouble();
+        total = items*itemcost;
+        System.out.println();
+        System.out.println("Unformatted Total: " + total);
+        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
+        System.out.println("Formatted Total: " + currencyFormat.format(total));
+    }
+}
