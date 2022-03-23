@@ -30,11 +30,11 @@ class FahrenheitToCelsius {
 
 //Formatted and Unformatted  total
 import java .util.Scanner;
-import java.NumberFormat;
+import java.text.NumberFormat;
 public class currency {
     public static void main(String[] args) {
         int items;
-        double itemcost, total;
+        double itemCost, total;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of items: ");
         items = input.nextInt();
