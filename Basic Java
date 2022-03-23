@@ -28,7 +28,7 @@ class FahrenheitToCelsius {
     }
 }
 
-//Formatted and Unformatted  total
+//Formatted and Unformatted  total (rounds off upto 2 decimals)
 import java .util.Scanner;
 import java.text.NumberFormat;
 public class currency {
