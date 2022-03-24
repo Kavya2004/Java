@@ -20,14 +20,13 @@ class FahrenheitToCelsius {
         System.out.print("Enter a Fahrenheit value: ");
         int fahrenheit  = input.nextInt();
         input.nextLine();
-        System.out.print("Enter day, month, date and year: ");
-        String day = input.nextLine();
-        double celsius = (5D/9)*(fahrenheit-32);
-        System.out.println(day +"Fahrenheit: "+fahrenheit);
-        System.out.println(day +"Celsius: "+celsius); 
+        double celsius = (5.0/9)*(fahrenheit-32);
+        System.out.println("Fahrenheit: "+fahrenheit);
+        System.out.println("Celsius: "+celsius); 
+        if (fahrenheit >= 70)
+            System.out.println("Yay! A good day to go outside");
     }
 }
-
 //Formatted and Unformatted  total (rounds off upto 2 decimals)
 import java .util.Scanner;
 import java.text.NumberFormat;
