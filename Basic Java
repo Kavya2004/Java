@@ -1,4 +1,4 @@
-// to convert fahrenheit to celcius
+//1. to convert fahrenheit to celcius
 class FahrenheitToCelsius {
     public static void main(String[] args) {
         int satF;
@@ -12,7 +12,7 @@ class FahrenheitToCelsius {
         System.out.println("Sunday: "+sunC);
     }
 }
-// input from user and convert fahrenheit to celsius
+//2. input from user and convert fahrenheit to celsius
 import java.util.Scanner;
 class FahrenheitToCelsius {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ class FahrenheitToCelsius {
             System.out.println("Yay! A good day to go outside");
     }
 }
-//Formatted and Unformatted  total (rounds off upto 2 decimals)
+//3. Formatted and Unformatted  total (rounds off upto 2 decimals)
 import java .util.Scanner;
 import java.text.NumberFormat;
 public class currency {
@@ -44,5 +44,18 @@ public class currency {
         System.out.println("Unformatted Total: " + total);
         NumberFormat currencyFormat = NumberFormat.getCurrencyInstance();
         System.out.println("Formatted Total: " + currencyFormat.format(total));
+    }
+}
+
+//4. comparison test
+public class ComparisonTest {
+    public static void main(String[] args) {
+        String x = "hello";
+        String y = "hell0";
+        if (x.compareTo(y)>0){
+            System.out.println("x is greater than y"); 
+            System.out.println("x: "+x);
+            System.out.println("y: "+y);
+        }
     }
 }
